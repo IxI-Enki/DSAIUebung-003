@@ -16,8 +16,8 @@
 </div>
 
 <div style="page-break-before: always;">
-## <p align="center"> 2 - Optimize the Boolean expression using the Karnaugh map method </p>  
   
+## <p align="center"> 2 - Optimize the Boolean expression using the Karnaugh map method </p>  
 ### <p align="left"> a ) <sub>[ `3` Variables ]</sub> </p>   
   💭
 ### <p align="left"> b ) <sub>[ `4` Variables ]</sub> </p>   
