@@ -8,9 +8,9 @@
 ## <p align="center"> 1 - Create Two Truth Tables (first one with 3, second one with 4 Variables) </p>  
   
 ### <p align="left"> a ) <sub>[ `3` Variables ]</sub> </p>   
-  💭
+  >  💭
 ### <p align="left"> b ) <sub>[ `4` Variables ]</sub> </p>   
-  💭
+  >  💭
   
 --- 
 </div>
@@ -19,9 +19,9 @@
   
 ## <p align="center"> 2 - Optimize the Boolean expression using the Karnaugh map method </p>  
 ### <p align="left"> a ) <sub>[ `3` Variables ]</sub> </p>   
-  💭
+  >  💭
 ### <p align="left"> b ) <sub>[ `4` Variables ]</sub> </p>   
-  💭
+  >  💭
   
 --- 
 </div>
