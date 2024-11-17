@@ -6,11 +6,15 @@
 
 # DSAIUebung-003 -- Karnaugh-Veitch Method
 
-## <p align="center"> 1 - Create Two Truth Tables </p>  
+## <p align="left"> a ) - Create Truth Tables </p>  
+## <p align="left"> b ) - Optimize the Boolean expression using the Karnaugh-Veitch method</p>
 
-### <p align="left"> a ) <sub>[ `3` Variables ]</sub> </p>   
+--- 
+
+# <p align="left"> 1 ) <sub>[ `3` Variables ]</sub> </p>   
 
 <div align="center">
+
 
 | A | B | C | P(A,B,C) |
 |:-:|:-:|:-:|:---------|
@@ -19,9 +23,27 @@
 | 0 |`1`| 0 |   `1`    |
 | 0 |`1`|`1`|   `1`    |
 |`1`| 0 | 0 |    0     |
+ 
+<sub><sup> 
+--- 
+</sup></sub>
+
+|    | AB | A¬B | ¬A¬B | ¬AB |
+|:--:|:--:|:---:|:----:|:---:|
+|  C |  0 |  0  |   0  | `1` |
+| ¬C |  0 |  0  |  `1` | `1` |   
+
+### P(A,B,C) ≡  ¬A¬C ∨ ¬AB
+</div>
+</div>
+
+---
+
+<div style="page-break-before: always;">
 
 
-### <p align="left"> b ) <sub>[ `4` Variables ]</sub> </p>   
+# <p align="left"> 2 ) <sub>[ `4` Variables ]</sub> </p>   
+<div align="center">
 
 | A | B | C | D | P(A,B,C,D) |
 |:-:|:-:|:-:|:-:|:-----------|
@@ -32,24 +54,11 @@
 |`1`|`1`| 0 | 0 |     `1`    |
 |`1`| 0 |`1`| 0 |      0     |
 |`1`| 0 | 0 |`1`|     `1`    |
-
+ 
+<sub><sup> 
 --- 
+</sup></sub>
 
-<div style="page-break-before: always;">
-
-## <p align="center"> 2 - Optimize the Boolean expression using the Karnaugh-Veitch method</p>
-
-### <p align="left"> a ) <sub>[ `3` Variables ]</sub> </p>   
- 
-|    | AB | A¬B | ¬A¬B | ¬AB |
-|:--:|:--:|:---:|:----:|:---:|
-|  C |  0 |  0  |   0  | `1` |
-| ¬C |  0 |  0  |  `1` | `1` |   
-
-### P(A,B,C) ≡  ¬A¬C ∨ ¬AB
- 
-### <p align="left"> b ) <sub>[ `4` Variables ]</sub> </p>   
- 
 |      | AB | A¬B | ¬A¬B | ¬AB |
 |:----:|:--:|:---:|:----:|:---:|
 |   CD | 0  |  0  |   0  |  0  |
@@ -57,11 +66,12 @@
 | ¬C¬D |`1` | `1` |   0  |  0  |
 |  ¬CD |`1` | `1` |   0  | `1` | 
 
-### P(A,B,C,D) ≡ A¬C ∨ ¬CD
+## *P(A,B,C,D) ≡ A¬C ∨ ¬CD*
+</div>  
+</div>  
 
 --- 
 
-</div>  
 
 
 <!-- ============================================================================================================ -->
