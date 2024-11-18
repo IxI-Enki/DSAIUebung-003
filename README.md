@@ -28,11 +28,11 @@
 ### <p align="left">🅱️</p>
 |    | AB | A¬B | ¬A¬B | ¬AB |
 |:--:|:--:|:---:|:----:|:---:|
-|  C |  0 |  0  |   0  | `1` |
-| ¬C |  0 |  0  |  `1` | `1` |   
+|  C | $\color{gray}{0}$ | $\color{gray}{0}$ | $\color{gray}{0}$ | $\color{royalblue}{1}$ |
+| ¬C | $\color{gray}{0}$ | $\color{gray}{0}$ | $\color{yellow}{1}$ | $\color{lime}{1}$ |   
 
 > ### <p align="left">***Ergebnis*** :</p>
-> ##  `𝑃`<sub>`(𝐴,𝐵,𝐂)`</sub> ≡ `(¬A∧¬C) ∨ (¬A∧B)`
+> ##  `𝑃`<sub>`(𝐴,𝐵,𝐂)`</sub> ≡ ($\color{yellow}{¬A∧¬C}$) ∨ ($\color{royalblue}{¬A∧B}$)
 > ##### *<p align="right"> Quot erat demonstrandum. </p>*
  
  --- 
@@ -59,13 +59,13 @@
 ### <p align="left">🅱️</p>
 |      | ¬AB | AB | A¬B | ¬A¬B |
 |:----:|:---:|:--:|:---:|:----:|
-|   CD |  0  | 0  |  0  |   0  |
-|  C¬D |  0  | 0  |  0  |   0  |
-| ¬C¬D |  0  |`1` | `1` |   0  |
-|  ¬CD | `1` |`1` | `1` |   0  | 
+|   CD |  $\color{gray}{0}$  |   $\color{gray}{0}$    |   $\color{gray}{0}$    | $\color{gray}{0}$ |
+|  C¬D |  $\color{gray}{0}$  |   $\color{gray}{0}$    |   $\color{gray}{0}$    | $\color{gray}{0}$ |
+| ¬C¬D |  $\color{gray}{0}$  | $\color{royalblue}{1}$ | $\color{royalblue}{1}$ | $\color{gray}{0}$ |
+|  ¬CD | $\color{yellow}{1}$ |    $\color{lime}{1}$   |    $\color{lime}{1}$   | $\color{gray}{0}$ | 
 
 > ### <p align="left">***Ergebnis*** :</p>
-> ##  `𝑃`<sub>`(𝐴,𝐵,𝐂,𝐃)`</sub> ≡ `(A∧¬𝐂) ∨ (¬𝐂∧𝐃)`
+> ##  `𝑃`<sub>`(𝐴,𝐵,𝐂,𝐃)`</sub> ≡ ($\color{royalblue}{A∧¬𝐂}$) ∨ ($\color{yellow}{¬𝐂∧𝐃}$)
 > ##### *<p align="right"> Quot erat demonstrandum. </p>*
  
  --- 
