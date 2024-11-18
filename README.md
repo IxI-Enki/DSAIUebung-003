@@ -16,7 +16,7 @@
 ### 🅰️ </p>  
 <div align="center">
 
-| A | B | C | P(A,B,C) |
+| 𝐴 | 𝐵 | 𝐂 | `𝑃`<sub>`(𝐴,𝐵,𝐂)`</sub> |
 |:-:|:-:|:-:|:--------:|
 | 0 | 0 | 0 | ![¬𝐴∧¬𝐶∧¬𝐵](https://img.shields.io/badge/1-yellow?style=for-the-badge) |
 | 0 | 0 |`1`|    0     |
@@ -45,7 +45,7 @@
 ### 🅰️ </p>  
 <div align="center">
 
-| A | B | C | D | P(A,B,C,D) |
+| 𝐴 | 𝐵 | 𝐂 | 𝐃 | `𝑃`<sub>`(𝐴,𝐵,𝐂,𝐃)`</sub> |
 |:-:|:-:|:-:|:-:|:----------:|
 |`1`| 0 | 0 | 0 |     ![`1`](https://img.shields.io/badge/1-royalblue?style=for-the-badge)    |
 | 0 |`1`|`1`|`1`|      0     |
