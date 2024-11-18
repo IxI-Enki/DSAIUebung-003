@@ -18,10 +18,10 @@
 
 | A | B | C | P(A,B,C) |
 |:-:|:-:|:-:|:---------|
-| 0 | 0 | 0 |   `1`    |
+| 0 | 0 | 0 | ![¬𝐴∧¬𝐶∧¬𝐵](https://img.shields.io/badge/1-yellow) |
 | 0 | 0 |`1`|    0     |
-| 0 |`1`| 0 |   `1`    |
-| 0 |`1`|`1`|   `1`    |
+| 0 |`1`| 0 | ![1](https://img.shields.io/badge/1-darklime)  |
+| 0 |`1`|`1`| ![¬𝐴∧𝐵∧𝐶](https://img.shields.io/badge/1-royalblue)  |
 |`1`| 0 | 0 |    0     |
 > ###### *..hier könnten weitere Zeilen stehen..*
 
@@ -47,13 +47,13 @@
 
 | A | B | C | D | P(A,B,C,D) |
 |:-:|:-:|:-:|:-:|:-----------|
-|`1`| 0 | 0 | 0 |     `1`    |
+|`1`| 0 | 0 | 0 |     ![`1`](https://img.shields.io/badge/1-royalblue)    |
 | 0 |`1`|`1`|`1`|      0     |
-|`1`|`1`| 0 |`1`|     `1`    |
-| 0 |`1`| 0 |`1`|     `1`    |
-|`1`|`1`| 0 | 0 |     `1`    |
+|`1`|`1`| 0 |`1`|     ![`1`](https://img.shields.io/badge/1-darklime)    |
+| 0 |`1`| 0 |`1`|     ![`1`](https://img.shields.io/badge/1-yellow)    |
+|`1`|`1`| 0 | 0 |      ![`1`](https://img.shields.io/badge/1-royalblue)    |
 |`1`| 0 |`1`| 0 |      0     |
-|`1`| 0 | 0 |`1`|     `1`    |
+|`1`| 0 | 0 |`1`|     ![`1`](https://img.shields.io/badge/1-darklime)    |
 > ###### *..hier könnten weitere Zeilen stehen..*
 
 ### <p align="left">🅱️</p>
